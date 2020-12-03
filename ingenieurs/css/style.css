@@ -27,8 +27,6 @@ i.small {
   color: rgba(44, 0, 46, 0.74);
 }
 
-
-
 table{
   margin-top: 60px;
 }
@@ -37,9 +35,6 @@ table{
   background-color: blueviolet !important;
 }
 
-
-.center, .center-align {
-  text-align: left;
-  font-size: medium;
-  font-weight: 700;
+form[name="form_option_ingenieur"] label {
+  display: block;
 }

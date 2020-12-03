@@ -7,110 +7,97 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
-    <div class="blue-grey-text text-darken-4" id="index-banner">
-        <div class="container">
-            <nav class="blue-grey lighten-2">
-                <div class="nav-wrapper">
-                  <a href="#" class="brand-logo">Liste des incidents</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html"><a><i class="medium material-icons">face</i></a></li>
-                  </ul>
-                </div>
-              </nav>
-            <h2 class="header center orange-text">Filtres</h2>
-            <form action="#">
-                <p>
+    <nav class="blue-grey lighten-2 text-darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Liste des incidents</a>
+            <a href="index.html" class="right">
+                <i class="medium material-icons">face</i>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3 class="orange-text">Filtres</h3>
+                <form action="#" name="form_option_ingenieur">
                     <label>
                         <input type="checkbox" />
                         <span>Afficher uniquement ls incidents non-cloturés</span>
                     </label>
-                </p>
-                <p>
                     <label>
                         <input type="checkbox" checked="checked" />
                         <span>Afficher uniquement les incidents que je me suis assigné</span>
                     </label>
-                </p>
-
-            </form>
-            <table>
-                <thead class="responsive-table">
+                </form>
+                <table>
+                    <thead class="responsive-table">
                     <tr>
                         <td>id</td>
                         <th>Sujet</th>
                         <th>Date</th>
                         <th>Utilisateur</th>
                         <th></th>
-                        <th>Ingenieur</th>
+                        <th class="center-align">Ingenieur</th>
                         <th></th>
-
                     </tr>
-                </thead>
-
-                <tbody>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>4</td>
                         <td>Bug d'affichage</td>
                         <td>10/09/2020</td>
                         <td>Ada Lowelace</td>
-                        <th><a>Afficher</a></th>
-                        <th><a onclick="M.toast({html: 'I am a toast'})" class="waves-effect waves-light btn-small">Assigner</a></th>
-                        <th><a onclick="M.toast({html: 'I am a toast'})" class="btn">Cloturer</a></th>
-                        
+                        <th class="center-align"><a>Afficher</a></th>
+                        <th class="center-align"><a onclick="M.toast({html: 'I am a toast'})" class="waves-effect waves-light btn-small">Assigner</a></th>
+                        <th class="center-align"><a onclick="M.toast({html: 'I am a toast'})" class="btn">Cloturer</a></th>
+
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Erreur 404</td>
                         <td>10/06/2020</td>
                         <td>Mike Jho</td>
-                        <th><a onclick="M.toast({html: 'I am a toast'})" class="waves-effect waves-light btn-smallwaves-effect waves-light btn-small">Assigner</a></th>
-                        <th><a><i class="small material-icons">face</i></a></th>
-                        <th><a onclick="M.toast({html: 'I am a toast'})" class="btn">Cloturer</a></th>
+                        <th class="center-align"><a onclick="M.toast({html: 'I am a toast'})" class="waves-effect waves-light btn-smallwaves-effect waves-light btn-small">Assigner</a></th>
+                        <th class="center-align"><i class="small material-icons">face</i></th>
+                        <th class="center-align"><a onclick="M.toast({html: 'I am a toast'})" class="btn">Cloturer</a></th>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Erreur 500</td>
                         <td>6/07/2020</td>
                         <td>Margaret</td>
-                        <th><a>Afficher</a></th>
-                        <th>Georges Lucas</th>
+                        <th class="center-align">Afficher</th>
+                        <th class="center-align">Georges Lucas</th>
                         <th></th>
                     </tr>
-
                     <tr>
                         <td>1</td>
                         <td>E-mails non envoyé</td>
                         <td>17/03/2020</td>
                         <td>Johan Clarck/td>
-                        <th><a>Afficher</a></th>
-                        <th>Georges Lucas</th>
-                        <th>17/03/2020</th>
+                        <th class="center-align">Afficher</th>
+                        <th class="center-align">Georges Lucas</th>
+                        <th class="center-align">17/03/2020</th>
                     </tr>
-
-                </tbody>
-            </table>
-
-
-
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-
-
 
     <footer class="blue-grey-text text-darken-4">
     </footer>
 
-
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <script src="../jquery/jquery-3.5.1.min.js"></script>
+    <script src="../materialize/js/materialize.js"></script>
 
 </body>
 </html>
