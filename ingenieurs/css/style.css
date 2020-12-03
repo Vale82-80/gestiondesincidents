@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+i.medium {
+  font-size: 4rem !important;
+  color: rgba(44, 0, 46, 0.74);
+}
+
+nav a :hover{
+  color: #fff !important;
+}
+
+
+i.small {
+  color: rgba(44, 0, 46, 0.74);
+}
+
+
+
+table{
+  margin-top: 60px;
+}
+
+.waves-effect{
+  background-color: blueviolet !important;
+}
+
+
+.center, .center-align {
+  text-align: left;
+  font-size: medium;
+  font-weight: 700;
+}

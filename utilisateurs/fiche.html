@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div class="blue-grey-text text-darken-4" id="index-banner">
+        <div class="container">
+            <nav class="blue-grey lighten-2">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">Liste des incidents</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html"><a><i class="medium material-icons">face</i></a></li>
+                  </ul>
+                </div>
+              </nav>
+            
+            <div class="plus">
+              <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">keyboard_arrow_left</i></a>
+              <a><h2 class="header center orange-text">Retour à la liste</h2></a>
+
+        </div>
+
+        <form action="/ma-page-de-traitement" method="post" class="formulaire">
+            <div>
+                <label for="name">Nom de l'incident :</label>
+                <label for="text">Lorem ipsum, dolor sit amet consectetur</label>
+                <div>
+                    <label for="name">Date d'observation :</label>
+                    <label for="Date">Nom de l'incident :</label>
+                </div>
+               
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Ajouter
+                <i class="material-icons right">arrow_back</i>
+            </button>
+        </form>
+        <table>
+            <thead class="responsive-table">
+                <tr>
+                    <td>Nom de l'incident:</td>
+                    <th>Lorem ipsum, dolor sit amet consectetur</th>
+                    <th>Date d'observation:</th>
+                    <th>10/09/2020</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>4</td>
+                    <td>Bug d'affichage</td>
+                    <td>10/09/2020</td>
+                    <td>12/12/2020</td>
+                    <th><a>Afficher</a></th>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Erreur 404</td>
+                    <td>10/06/2020</td>
+                    <td>11/09/2020</td>
+                    <th><a>Afficher</a></th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Erreur 500</td>
+                    <td>6/07/2020</td>
+                    <td></td>
+                    <th><a>Afficher</a></th>
+                    
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>E-mails non envoyé</td>
+                    <td>17/03/2020</td>
+                    <td></td>
+                    <th><a>Afficher</a></th>
+                   
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        </div>
+    </div>
+
+
+
+    <footer class="blue-grey-text text-darken-4">
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+</html>
