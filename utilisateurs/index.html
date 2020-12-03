@@ -7,30 +7,32 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
+    <nav class="blue-grey lighten-2 text-darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Liste des incidents</a>
+            <a href="index.html" class="right">
+                <i class="medium material-icons">face</i>
+            </a>
+        </div>
+    </nav>
     <div class="blue-grey-text text-darken-4" id="index-banner">
         <div class="container">
-            <nav class="blue-grey lighten-2">
-                <div class="nav-wrapper">
-                  <a href="#" class="brand-logo">Liste des incidents</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html"><a><i class="medium material-icons">face</i></a></li>
-                  </ul>
+            <div class="col s12">
+                <div class="plus">
+                    <a class="btn-floating btn-large red">
+                        <i class="material-icons">add</i>
+                    </a>
+                    <h2 class="orange-text">Rapporter un incidents</h2>
                 </div>
-              </nav>
-            
-            <div class="plus">
-              <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-              <a><h2 class="header center orange-text">Rapporter un incidents</h2></a>
 
-           </div>
-            <table>
-                <thead class="responsive-table">
+                <table>
+                    <thead class="responsive-table">
                     <tr>
                         <td>id</td>
                         <th>Sujet</th>
@@ -38,17 +40,15 @@
                         <th>Cloture</th>
                         <th></th>
                     </tr>
-                </thead>
+                    </thead>
 
-                <tbody>
+                    <tbody>
                     <tr>
                         <td>4</td>
                         <td>Bug d'affichage</td>
                         <td>10/09/2020</td>
                         <td>12/12/2020</td>
                         <th><a>Afficher</a></th>
-                        
-                        
                     </tr>
                     <tr>
                         <td>3</td>
@@ -63,7 +63,6 @@
                         <td>6/07/2020</td>
                         <td></td>
                         <th><a>Afficher</a></th>
-                        
                     </tr>
 
                     <tr>
@@ -72,27 +71,18 @@
                         <td>17/03/2020</td>
                         <td></td>
                         <th><a>Afficher</a></th>
-                       
                     </tr>
-
-                </tbody>
-            </table>
-
-
-
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
-
-
     <footer class="blue-grey-text text-darken-4">
     </footer>
-
-
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <script src="../jquery/jquery-3.5.1.min.js"></script>
+    <script src="../materialize/js/materialize.js"></script>
 
 </body>
 </html>

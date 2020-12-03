@@ -40,9 +40,11 @@ i.small {
   font-weight: 700;
 }
 
-.plus{
+.plus {
   display: flex;
-  padding-top: 30px;
+}
+.plus a {
+  margin-top: 2.3rem;
 }
 
 .btn-floating i {
