@@ -44,23 +44,30 @@ i.small {
   display: flex;
 }
 .plus a {
-  margin-top: 2.3rem;
+  margin-top: 2.7rem;
 }
 
-.btn-floating i {
-  color: red;
-  font-size: 2rem;
-  line-height: 60px !important;
+.btn-plus-floating {
+  color: #ff0000;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
 }
-
+.btn-plus-floating:hover,
+.btn-plus-floating:focus {
+  background: #b7b7b7;
+}
 
 h2{
   display: flex;
   padding-left: 20px;
-}
-
-.red {
-  background-color: #ffffff !important;
 }
 
 textarea {
@@ -73,3 +80,10 @@ h3 {
   font-size: 1rem;
   line-height: 120%;
 }
+
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
