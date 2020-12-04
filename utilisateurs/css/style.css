@@ -81,9 +81,7 @@ h3 {
   line-height: 120%;
 }
 
-.row{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+.text-justify {
+  text-align: justify;
 }
 
