@@ -15,7 +15,7 @@
 
 i.medium {
   font-size: 4rem !important;
-  color: rgba(44, 0, 46, 0.74);
+  color: rgb(23, 23, 145);
 }
 
 nav a :hover{
@@ -24,7 +24,7 @@ nav a :hover{
 
 
 i.small {
-  color: rgba(44, 0, 46, 0.74);
+  color: #171791;
 }
 
 table{
@@ -38,3 +38,56 @@ table{
 form[name="form_option_ingenieur"] label {
   display: block;
 }
+
+
+.center, .center-align {
+  text-align: left;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.plus {
+  display: flex;
+}
+.plus a {
+  margin-top: 2.7rem;
+}
+
+.btn-plus-floating {
+  color: #ff0000;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn-plus-floating:hover,
+.btn-plus-floating:focus {
+  background: #b7b7b7;
+}
+
+h2{
+  display: flex;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+
+h4 {
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
